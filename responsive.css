@@ -1,0 +1,762 @@
+/***** SMALL_DEVICE / MOBILE_DEVICE *****/
+
+@media (max-width: 570px) {
+  
+/***** MAIN_HEADER_SECTION *****/
+
+  .header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: -30px;
+  }
+  
+  .search_input_filed {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .search_input_filed #search {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    left: 12px;
+    font-size: 16px;
+    overflow: hidden;
+  }
+  
+  #search::placeholder {
+    position: relative;
+    font-size: 16px;
+  }
+  
+  #searchImg {
+    border-radius: 50px;
+    padding: 5px;
+  }
+  
+  .user_account {
+    position: relative;
+    left: 30px;
+  }
+  
+  .drak_night {
+    position: relative;
+    left: 40px;
+  }
+  
+  .user_account
+  #notification_icon {
+    position: relative;
+    top: -2px;
+    left: 25px;
+  }
+  
+  .user_account
+  #user_icon {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    position: relative;
+    top: 4px;
+    left: 10px;
+  }
+  
+/***** USER_MENU_HEADER_SECTION *****/
+  
+  .menu_header {
+    position: absolute;
+    top: 80px;
+    right: -5px;
+  }
+  
+  .user_nav_menu {
+    width: 120px;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .user_nav_menu ul {
+    position: relative;
+    top: -15px;
+  }
+  
+  .user_nav_menu #cross_icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+  
+  .user_nav_menu 
+  .user_menu i {
+    font-size: 20px;
+  }
+  
+  .user_menu li {
+    margin-bottom: 15px;
+    margin-left: -20px;
+  }
+  
+  .user_menu a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+  }
+  
+  .user_menu i {
+    padding-right: 10px;
+    opacity: 0.6;
+  }
+  
+/***** NOTIFICATION_MENU_HEADER_SECTION *****/
+  
+  .notification_menu {
+    position: absolute;
+    top: 80px;
+    right: 25px;
+  }
+  
+  .notification {
+    width: 120px;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  #cross_icon2 {
+    z-index: 1;
+  }
+
+  .notification ul {
+    position: relative;
+    top: -8px;
+    left: -10px;
+  }
+  
+  .notification label i {
+    font-size: 8px;
+    position: relative;
+    left: -5px;
+    padding: 5px;
+  }
+  
+  .notification label h5{
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  
+  .notification label small {
+    font-size: 10px;
+    margin-left: 30px;
+  }
+  
+/***** INPUT_OPTION_HEADER_SECTION *****/
+  
+  .search_value {
+    width: 150px;
+    height: 250px;
+    position: absolute
+    ;
+    top: 76px;
+    margin-left: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+  }
+  
+  .value {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .search_value img {
+    display: flex;
+    width: 50px;
+  }
+
+/***** OVER_BACKGROUND *****/
+
+.bg {
+  width: 100%;
+  height: 1425vh;
+}  
+
+/***** HERO_SECTION *****/
+
+  .hero {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .hero 
+  .animated_text {
+    width: 100%;
+    height:400px;
+    position: relative;
+    top: -70px;
+    display: flex;
+  }
+  
+  .animated_text 
+  .text {
+    width: 50%;
+    position: relative;
+  }
+  
+  .hero .text h1 {
+    font-size: 80px;
+    font-weight: 600;
+  }
+  
+  .hero_image_text {
+    width: 100%;
+    height: 800px;
+    display: block;
+    position: relative;
+  }
+  
+  .hero_img img {
+    width: 500px;
+  }
+  
+  .hero_txt {
+   position: relative;
+   left: -40px;
+  }
+  
+  .hero_txt h1 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .hero_image_text 
+  .hero_footer {
+    position: relative;
+    top: 150px;
+    left: 20px;
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    opacity: 0.4;
+  }
+
+/***** HERO_BUTTON_SECTION *****/
+
+  .hero_button_section {
+    position: relative;
+    left: -20px;
+    top: -200px;
+  }
+  
+  .hero_button_section 
+  .download_link a{
+    width: 150px;
+    font-size: 8px;
+    padding-left: 3px;
+  }
+  
+  .download_link a
+  .download_icon {
+    font-size: 15px;
+  }
+  
+  .button {
+    width: 350px;
+    height: 60px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .border {
+    position: relative;
+    top: 0;
+    overflow: hidden;
+  }
+  
+/***** EMOJI_CONTANT_HEADER_SECTION *****/
+
+  .all_emoji_content {
+    position: relative;
+    top: 50px;
+  }
+
+  .contant {
+    width: 100%;
+    display: block;
+  }
+  
+  .type_contant {
+    width: 100%;
+    height: 200%;
+    display: block;
+    justify-content: end;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  
+  .emoji_type {
+    position: relative;
+    top: -15px;
+  }
+    
+  .all_category {
+    position: relative;
+    top: 85px;
+    z-index: 6;
+  }
+
+/***** SERVICE_SECTION *****/
+  
+  .services_about {
+    width: 100%;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .services {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .service {
+    width: 100%;
+  }
+  
+  .about {
+    width: 100%;
+  }
+  
+  .about 
+  .about_header h1 {
+    font-size: 50px;
+  }
+  
+  .about .about_detail {
+    height: 500px;
+  }
+  
+  .about 
+  .about_detail .det {
+    font-size: 16px;
+    letter-spacing: 1px;
+    opacity: 0.7;
+  }
+  
+  .about .about_detail 
+  .btn {
+    position: absolute;
+    bottom: 440px;
+    right: -130px;
+    overflow: hidden;
+  }
+
+/***** COMPANY *****/
+
+  .company {
+    width: 350px;
+    height: 100px;
+    position: relative;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+  }
+  
+  .company_logo {
+    width: 700px;
+    height: 100px;
+    padding-left: 300px;
+    overflow: hidden;
+  }
+
+/***** FOOTER *****/
+
+  .footer {
+    width: 100%;
+    height: 250vh;
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .footer 
+  .left_foot {
+    width: 100%;
+    height: 128vh;
+    position: relative;
+    top: 50px;
+  }
+  
+  .foot_about h1 {
+    font-size: 30px;
+  }
+  
+  .foot_about p {
+    font-size: 8px;
+    opacity: 0.8;
+  }
+  
+  .left_foot
+  .foot_contact  {
+    width: 100%;
+    height: 125vh;
+    position: relative;
+    top: 100px;
+  }
+  
+  .foot_contact h2 {
+    font-size: 30px;
+  }
+  
+  .foot_contact p {
+    font-size: 8px;
+    opacity: 0.8;
+  }
+  
+  .footer 
+  .right_foot {
+    width: 100%;
+    height: 560px;
+    position: relative;
+    top: 200px;
+    overflow: hidden;
+  }
+  
+  .footer .right_foot
+  .feedback_header h1 {
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  
+  #inputField {
+    width: 300px;
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .right_foot button {
+    position: relative;
+    top: -15px;
+  }
+  
+  .main_footer_paragraph {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: -5px;
+    font-size: 6px;
+    font-weight: 700;
+    letter-spacing: normal;
+  }
+
+/***** PROFILE_SECTION *****/
+
+  .profile
+  .p_header
+  .back_profile_home {
+    font-size: 30px;
+  }
+
+  .profile
+  .p_header h1 {
+    position: relative;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .profile 
+  .p_img i {
+    font-size: 100px;
+    position: relative;
+    top: -80px;
+  }
+  
+  .profile
+  .p_data {
+    position: relative;
+    top: -150px;
+  }
+
+  .profile
+  .p_data .p_value 
+   label {
+    position: relative;
+    top: 145px;
+    left: -33%;
+    font-size: 14px;
+  }
+  
+  .profile
+  .p_data .p_input {
+    height: 60px;
+    position: relative;
+    top: 125px;
+  }
+  
+  .profile 
+  .p_data .p_input
+   input[value] {
+     font-size: 18px;
+   }
+  
+  .profile
+  .p_data 
+  .p_value:hover label {
+    position: relative;
+    left: 7%;
+  }
+  
+  .profile
+  .p_data .p_input i {
+    font-size: 20px;
+  }
+  
+  .profile a {
+    font-size: 10px;
+    position: relative;
+    top: -40px;
+    left: 60%;
+  }
+  
+  .profile
+  .p_btn {
+    position: relative;
+    top: 180px;
+    left: -20px;
+    font-size: 18px;
+  }
+
+/***** SETTING_SECTION *****/
+
+  
+
+/***** LOGIN_FORM *****/
+
+  #form1{
+    position: relative;
+    top: 150px;
+  }
+  .forget {
+    margin-left: -20px;
+  }
+  
+  form {
+    padding: 0 1.5rem;
+  }
+
+  .image {
+    display: none;
+  }
+  .panel .content {
+    padding: 0.5rem 1rem;
+  }
+  
+  .content_value {
+    position: relative;
+    top: 280px;
+  }
+  
+  .sign-in-btn {
+    position: relative;
+    top: -50px;
+  }
+  
+  .container {
+    padding: 1.5rem;
+  }
+
+  .container:before {
+    bottom: 72%;
+    left: 50%;
+  }
+
+  .container.sign-up-mode:before {
+    bottom: 28%;
+    left: 50%;
+  }
+  
+  .forget_password_form {
+    width: 360px;
+    height: 520px;
+    position: absolute;
+    top: 400px;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .forget_password_form img {
+    width: 25px;
+    position: relative;
+    left: -10px;
+  }
+  
+  .vCode {
+    width: 120px;
+    position: relative;
+    left: 5px;
+  }
+  
+  .send {
+    width: 100px;
+    position: relative;
+    left: 30px;
+  }
+  
+}
+  
+
+
+/***** MEDIUM_DEVICE / TABLET_DEVICE *****/
+
+@media (min-width: 577px) and (max-width: 1023px) {
+  
+  .search_input_filed {
+    width: 480px;
+    height: 40px;
+  }
+  
+  .search_value {
+    width: 420px;
+    height: 3000px;
+    position: absolute;
+    top: 76px;
+    margin-left: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+  }
+}
+
+
+@media (max-width: 870px) {
+  .container {
+    min-height: 800px;
+    height: 100vh;
+  }
+  .signin-signup {
+    width: 100%;
+    top: 95%;
+    transform: translate(-50%, -100%);
+    transition: 1s 0.8s ease-in-out;
+  }
+
+  .signin-signup,
+  .container.sign-up-mode .signin-signup {
+    left: 50%;
+  }
+
+  .panels-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+
+  .panel {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5rem 8%;
+    grid-column: 1 / 2;
+  }
+
+  .right-panel {
+    grid-row: 3 / 4;
+  }
+
+  .left-panel {
+    grid-row: 1 / 2;
+  }
+
+  .image {
+    width: 200px;
+    transition: transform 0.9s ease-in-out;
+    transition-delay: 0.6s;
+  }
+
+  .panel .content {
+    padding-right: 15%;
+    transition: transform 0.9s ease-in-out;
+    transition-delay: 0.8s;
+  }
+
+  .panel h3 {
+    font-size: 1.2rem;
+  }
+
+  .panel p {
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+  }
+
+  .btns.transparent {
+    width: 110px;
+    height: 35px;
+    font-size: 0.7rem;
+  }
+
+  .container:before {
+    width: 1500px;
+    height: 1500px;
+    transform: translateX(-50%);
+    left: 30%;
+    bottom: 68%;
+    right: initial;
+    top: initial;
+    transition: 2s ease-in-out;
+  }
+
+  .container.sign-up-mode:before {
+    transform: translate(-50%, 100%);
+    bottom: 32%;
+    right: initial;
+  }
+
+  .container.sign-up-mode .left-panel .image,
+  .container.sign-up-mode .left-panel .content {
+    transform: translateY(-300px);
+  }
+
+  .container.sign-up-mode .right-panel .image,
+  .container.sign-up-mode .right-panel .content {
+    transform: translateY(0px);
+  }
+
+  .right-panel .image,
+  .right-panel .content {
+    transform: translateY(300px);
+  }
+
+  .container.sign-up-mode .signin-signup {
+    top: 5%;
+    transform: translate(-50%, 0);
+  }
+}
